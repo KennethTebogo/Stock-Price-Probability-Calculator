@@ -12,7 +12,7 @@ This Python script calculates the probability that a stock's price at the end of
 
 Ensure you have Python installed (>=3.6) along with the required dependencies:
 
-```sh
+```
 pip install scipy
 ```
 
@@ -20,7 +20,7 @@ pip install scipy
 
 Run the script and provide the required inputs when prompted:
 
-```sh
+```
 python stock_price_probability.py
 ```
 
@@ -42,14 +42,11 @@ Probability P(F(M) > F(0)): 0.624795
 ## Explanation
 
 - **Z-score Calculation:**
-  $$
-  \(Z = \sqrt{M} \times \left(\frac{\mu}{\sigma}\right)\)
-  $$
+  $$ \(Z = \sqrt{M} \times \left(\frac{\mu}{\sigma}\right)\) $$
 - **Probability Computation:**
-  $$
-  \(P(F(M) > F(0)) = \Phi(Z)\)
-  $$
-  where $$ \(\Phi(Z)\) $$ is the cumulative distribution function (CDF) of the standard normal distribution.
+  $$ \(P(F(M) > F(0)) = \Phi(Z)\) $$
+   where
+  $$ \(\Phi(Z)\) $$ is the cumulative distribution function (CDF) of the standard normal distribution.
 
 ## License
 
