@@ -35,7 +35,7 @@ Probability P(F(M) > F(0)): 0.624795
 ## Explanation
 - **Z-score Calculation:**
   $$
-  \ Z = \sqrt{M} \times \left(\frac{\mu}{\sigma}\right)
+  Z = \sqrt{M} \times \left(\frac{\mu}{\sigma}\right)
   $$
 - **Probability Computation:**
   $$
